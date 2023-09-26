@@ -3,3 +3,7 @@ export { default as HeroSection } from "../components/HeroSection/HeroSection";
 export { default as FeaturedListing } from "../components/FeaturedListing/FeaturedListing";
 export { default as Footer } from "../components/Footer/Footer";
 export { default as Explore } from "../components/Explore/Explore";
+export { default as CheckboxFilter } from "../components/CheckboxFilter/CheckboxFilter";
+export { default as SortingFilter } from "../components/SortingFilter/SortingFilter";
+export { default as ListingTable } from "../components/ListingTable/ListingTable";
+export { default as LandingPage } from "../components/LandingPage/LandingPage";

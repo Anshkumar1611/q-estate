@@ -4,7 +4,7 @@ import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
-    <div>
+    <>
       <Header onPage="home" />
       <HeroSection />
 
@@ -17,7 +17,7 @@ const LandingPage = () => {
       </div>
 
       <Footer />
-    </div>
+    </>
   );
 };
 

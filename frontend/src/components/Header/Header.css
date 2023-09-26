@@ -9,6 +9,7 @@
   font-weight: 500;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -23,6 +24,6 @@
   padding: 5px 30px;
   border-radius: 30px;
   border: none;
- font-size: 16px;
+  font-size: 16px;
   color: white;
 }

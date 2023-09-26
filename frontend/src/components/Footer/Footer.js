@@ -10,7 +10,7 @@ const link_items = [
 
 const Footer = () => {
   return (
-    <Footer className="footer-container">
+    <footer className="footer-container">
       <div className="first-col">
         <h1 className="company-name">QEstate Homes</h1>
         <div className="company-description">
@@ -23,12 +23,12 @@ const Footer = () => {
       <div className="second-col">
         <h1 className="link-header">Contact</h1>
         <ul className="link-items">
-          {link_items.map((item,index) => (
+          {link_items.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
       </div>
-    </Footer>
+    </footer>
   );
 };
 
