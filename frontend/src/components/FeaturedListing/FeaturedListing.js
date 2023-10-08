@@ -17,6 +17,7 @@ const FeaturedListing = () => {
         `${config.backendEndpoint}/real-estate-data`
       );
       const result = response.data.listings;
+      console.log(result);
       localStorage.setItem("listings", JSON.stringify(result));
       setListingData(result.slice(1, 9));
     } catch (error) {
